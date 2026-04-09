@@ -48,9 +48,12 @@ This lab successfully demonstrated:
 # Lessons Learned
 This lab challanged me in so many ways that were unexpected. I thought it would mainly be in configuring Active Directory and running attacks. But the most valuable experience came from troubleshooting the issues in between.
 
-**Networking** I underestimated how much time I would spend on connectivity before any security work could begin. Diagnosing why one VM could not be reached while others communicated fine forced me to look for connectivities such as adapters, firewall rules, and serivces, and each of these can mess with one another if not configured correctly.
+**Networking** 
+I underestimated how much time I would spend on connectivity before any security work could begin. Diagnosing why one VM could not be reached while others communicated fine forced me to look for connectivities such as adapters, firewall rules, and serivces, and each of these can mess with one another if not configured correctly.
 
-**Knowing your tools** Crowbar kept on failing throughout this lab due to compatibility issues with the environment. Rather than continuing to retry the same approach, I searched the whole internet and finally diagnosed the failure. I switched to Hydra, and it finally worked. I felt like these processes of elimination were more educational than a perfect successful first attemp.
+**Knowing your tools** 
+Crowbar kept on failing throughout this lab due to compatibility issues with the environment. Rather than continuing to retry the same approach, I searched the whole internet and finally diagnosed the failure. I switched to Hydra, and it finally worked. I felt like these processes of elimination were more educational than a perfect successful first attemp.
 
-**Windows Security Defaults** Getting RDP to work required enabling it at the registry level, starting the service, opening the firewall, and disabling NLA. This honestly got me in awe of how defense-in-depth can be so meticuluous-all these small, little configurations just to make the end device safer.
+**Windows Security Defaults** 
+Getting RDP to work required enabling it at the registry level, starting the service, opening the firewall, and disabling NLA. This honestly got me in awe of how defense-in-depth can be so meticuluous-all these small, little configurations just to make the end device safer.
 
