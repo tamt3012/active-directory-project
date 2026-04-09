@@ -55,5 +55,5 @@ I underestimated how much time I would spend on connectivity before any security
 Crowbar kept on failing throughout this lab due to compatibility issues with the environment. Rather than continuing to retry the same approach, I searched the whole internet and finally diagnosed the failure. I switched to Hydra, and it finally worked. I felt like these processes of elimination were more educational than a perfect successful first attemp.
 
 **Windows Security Defaults** 
-Getting RDP to work required enabling it at the registry level, starting the service, opening the firewall, and disabling NLA. This honestly got me in awe of how defense-in-depth can be so meticuluous-all these small, little configurations just to make the end device safer.
+Getting RDP to work required enabling it at the registry level, starting the service, opening the firewall, and disabling NLA. This honestly got me in awe of how defense-in-depth can be so meticuluous–all these small, little configurations, together, make the end devices much safer from threats.
 
